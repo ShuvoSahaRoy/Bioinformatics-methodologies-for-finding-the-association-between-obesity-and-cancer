@@ -2,7 +2,7 @@
 
 
 # 1. Set your work folder
-setwd("D:/final work/result1")
+setwd("..../workplace")
 
 # 2. Load libraries for script two
 library(GOSemSim)
@@ -14,7 +14,7 @@ library(corrplot)
 library(RColorBrewer)
 
 # 3. List the available correspondence files 
-path <- c("D:/final work/result1")
+path <- c("...../results from gene enrichment code")
 
 files <- readtext(path)
 files_split <- strsplit(files[,1],"_")
