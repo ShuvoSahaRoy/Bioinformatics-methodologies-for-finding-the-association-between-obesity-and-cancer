@@ -1,6 +1,6 @@
 
 # 1. Set your work folder
-setwd("D:/final work/obesity")
+setwd("..../workplace")
 
 # 2. Load libraries for script one
 library(RCurl)
